@@ -70,38 +70,32 @@ Monitors logs, metrics, and events from AWS services to enable observability and
 
 ### 🔍 GuardDuty Finding – Port Scan Detection
 GuardDuty identifies reconnaissance activity (`Recon:EC2/Portscan`) triggered by an Nmap scan.
-![GuardDuty Port Scan]([images/GuardDuty_Finding.jpeg](https://github.com/rushikeshkadam8945/Threat-detection-and-response/blob/main/images/GuardDuty%20Finding.jpeg))
+![GuardDuty Port Scan](images/guardduty.png)
 
 ---
 
-### 🚨 Lambda Auto-Remediation – CloudWatch Logs
-Lambda function is triggered automatically and removes ingress rules from the compromised EC2 instance.
-![Lambda Logs](images/lambda_logs.png)
+### 🚨 Lambda Function Overview
+Lambda function Overview shown the Overview.
+![Lambda  Overview](images/lambdafunOverview.png)
 
 ---
 
-### 🔒 Quarantined EC2 Instance – Tag & Isolation
-EC2 instance is tagged with `Quarantine=True` and its security group ingress rules are revoked.
-![EC2 Quarantine](images/ec2_quarantine.png)
+### 🔒 EC2 Instance
+An Amazon EC2 (Elastic Compute Cloud) instance is a virtual server in the AWS cloud. It provides scalable computing capacity, allowing you to run applications just like you would on a physical machine—but with the flexibility and power of the cloud.
+You have full control over your instance from launch to termination, including OS selection, configuration, and software installation.
+![EC2 Instance](images/EC2.png)
 
 ---
 
-### 🧩 Security Hub – CIS AWS Foundations Benchmark
-Security Hub shows enabled CIS benchmark and findings summary, validating compliance monitoring.
-![Security Hub Compliance](images/security_hub_summary.png)
+### 🧩 Security Group
+A security group in Amazon VPC acts as a virtual firewall that controls inbound and outbound traffic to and from AWS resources like EC2 instances.
+![Security Group](images/Securitygroup.png)
 
 ---
-
-### ✅ AWS Config – S3 Bucket Encryption Rule
-Config rule `s3-bucket-server-side-encryption-enabled` detects unencrypted S3 buckets in real-time.
-![AWS Config Rule](images/aws_config_encryption_rule.png)
-
----
-
 ## 🎯 Skills Demonstrated
 
 * Cloud Security Engineering (GuardDuty, Config, IAM, Security Hub)
-* DevSecOps Automation with Terraform + Lambda
+* DevSecOps Automation with Lambda + SNS
 * Incident Response (detection → action flow)
 * AWS Governance & Compliance (CIS, NIST)
 * Real-world threat simulation with MITRE ATT\&CK mapping
@@ -110,7 +104,7 @@ Config rule `s3-bucket-server-side-encryption-enabled` detects unencrypted S3 bu
 
 ## 👋 Author
 
-**RUSHIKESH KADAM**
-🔗 [LinkedIn](https://www.linkedin.com/in/rushikeshkadam894)
+**PRAMOD PATIL**
+🔗 [LinkedIn](https://www.linkedin.com/in/rushikeshkadam894/)
 
 ---
