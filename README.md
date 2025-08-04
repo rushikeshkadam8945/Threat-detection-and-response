@@ -104,7 +104,7 @@ A security group in Amazon VPC acts as a virtual firewall that controls inbound 
 
 ## 👋 Author
 
-**PRAMOD PATIL**
+**RUSHIKESH KADAM**
 🔗 [LinkedIn](https://www.linkedin.com/in/rushikeshkadam894/)
 
 ---
