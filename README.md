@@ -30,7 +30,7 @@ This simulates real-world cloud security incidents and demonstrates automated th
 
 ## 🗺️ Architecture
 
-![Architecture Diagram](images/architecture.png)
+![Architecture Diagram](images/ProjectArchitecture.jpg)
 
 > *This diagram shows the flow from threat detection → Lambda response → EC2 isolation.*
 
